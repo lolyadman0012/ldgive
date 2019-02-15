@@ -1,5 +1,7 @@
 
 const Discord = require("discord.js");
+const moment = require('moment');
+const ms = require('ms');
 const client = new Discord.Client();
 client.on('message',async message => {
   if(message.author.bot) return;
