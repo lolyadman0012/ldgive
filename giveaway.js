@@ -1,3 +1,6 @@
+
+const Discord = require("discord.js");
+const client = new Discord.Client();	
 client.on('message',async message => {
     const moment = require('moment');
 const ms = require('ms');
