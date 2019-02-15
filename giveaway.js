@@ -1,4 +1,4 @@
-client.on('message',async message => {
+client.on('message',async message => ;
     const moment = require('moment');
 const ms = require('ms')
     var prefix = '$'
